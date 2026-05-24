@@ -1,0 +1,251 @@
+.container {
+  min-height: 100dvh;
+  background: #0f0f1a;
+  color: #fff;
+  padding: 24px 20px 40px;
+  max-width: 480px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.header {
+  text-align: center;
+  padding-top: 12px;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin: 0 0 6px;
+  letter-spacing: -0.5px;
+}
+
+.subtitle {
+  color: #888;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.modeToggle {
+  display: flex;
+  gap: 10px;
+}
+
+.modeBtn {
+  flex: 1;
+  padding: 14px 10px;
+  border-radius: 14px;
+  border: 2px solid #2a2a3e;
+  background: #1a1a2e;
+  color: #666;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.15s;
+}
+
+.modeBtn:active {
+  transform: scale(0.97);
+}
+
+.modeBtnActive {
+  border-color: #6c63ff;
+  background: #6c63ff18;
+  color: #fff;
+}
+
+.modeIcon {
+  font-size: 1.4rem;
+}
+
+.modeName {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.modeDesc {
+  font-size: 0.72rem;
+  color: #777;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.modeBtnActive .modeDesc {
+  color: #aaa;
+}
+
+.countButtons {
+  display: flex;
+  gap: 8px;
+}
+
+.countBtn {
+  flex: 1;
+  padding: 12px 0;
+  border-radius: 10px;
+  border: 2px solid #2a2a3e;
+  background: #1a1a2e;
+  color: #888;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.countBtn:active {
+  transform: scale(0.95);
+}
+
+.countBtnActive {
+  border-color: #6c63ff;
+  background: #6c63ff20;
+  color: #fff;
+}
+
+.timeRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+}
+
+.timeBtn {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid #2a2a3e;
+  background: #1a1a2e;
+  color: #fff;
+  font-size: 1.6rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+}
+
+.timeBtn:active {
+  transform: scale(0.9);
+  background: #6c63ff30;
+}
+
+.timeValueBlock {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  min-width: 80px;
+  justify-content: center;
+}
+
+.timeValue {
+  font-size: 2.8rem;
+  font-weight: 800;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.timeUnit {
+  font-size: 1rem;
+  color: #888;
+  font-weight: 600;
+}
+
+.timePresets {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.presetBtn {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid #2a2a3e;
+  background: transparent;
+  color: #888;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.presetBtn:active {
+  transform: scale(0.95);
+}
+
+.presetBtnActive {
+  border-color: #6c63ff;
+  background: #6c63ff20;
+  color: #fff;
+}
+
+.playerList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.playerRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #1a1a2e;
+  border-radius: 12px;
+  padding: 10px 14px;
+}
+
+.colorDot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.nameInput {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.nameInput::placeholder {
+  color: #555;
+}
+
+.startBtn {
+  margin-top: auto;
+  padding: 18px;
+  border-radius: 16px;
+  border: none;
+  background: linear-gradient(135deg, #6c63ff, #a855f7);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.15s;
+  letter-spacing: 0.5px;
+}
+
+.startBtn:active {
+  transform: scale(0.97);
+  opacity: 0.9;
+}
